@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="side">
+      <div class="brand"><div class="mark">L</div><h1>Lumina<span>Atelier</span></h1></div>
+      <nav class="nav" id="nav"></nav>
+      <div class="foot">Pacific Heights · Open 9–7</div>
+    </aside>
+    <div class="main">
+      <div style="display:flex;justify-content:flex-end;margin-bottom:8px">
+        <button class="menu" id="menu" aria-label="Menu">Menu</button>
+      </div>
+      <div id="view"></div>
+    </div>
+  </div>
+  <div id="toast" class="toast" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>
